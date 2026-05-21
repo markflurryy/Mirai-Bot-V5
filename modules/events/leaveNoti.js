@@ -38,7 +38,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
         var msg = data?.customLeave ||
             `╔══════════════════╗\n║  🚪 ${bold('MEMBER LEFT')}   ║\n╚══════════════════╝\n\n` +
             `👤 ${bold('{name}')}\n{type}\n\n` +
-            `🔗 fb.com/profile.php?id={iduser}\n⏰ {time}`;
+            `🔗 facebook.com/{iduser}\n⏰ {time}`;
 
         msg = msg
             .replace(/\{name}/g, name)
