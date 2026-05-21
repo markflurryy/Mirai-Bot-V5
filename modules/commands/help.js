@@ -231,9 +231,9 @@ module.exports.run = async function ({ api, event, args }) {
   return api.sendMessage({
     body:
       `╔══════════════════════════════════╗\n` +
-      `║  🤖 ${bold('MIRAI BOT V6')} — ${bold('CMD MENU')}   ║\n` +
+      `║  🤖 ${bold('Alice Bot')} — ${bold('CMD MENU')}   ║\n` +
       `║  ⚡ ${bold('30-Layer Anti-Detect Protection')}║\n` +
-      `║  🏷️  ${bold('TEAM STARTCOPE BETA')}          ║\n` +
+      `║  🏷️  ${bold('TEAM ALICE')}          ║\n` +
       `╚══════════════════════════════════╝\n\n` +
       `╭──────────────────────⭓\n` +
       catSection +
