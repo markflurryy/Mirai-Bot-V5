@@ -62,11 +62,11 @@ module.exports.run = async function ({ api, event, Users }) {
     );
     return api.sendMessage(
       `👋 ${bold('Hello Everyone!')}\n\n` +
-      `🤖 I'm ${bold(global.config.BOTNAME || 'Mirai Bot')}!\n` +
+      `🤖 I'm ${bold(global.config.BOTNAME || 'Alice Bot')}!\n` +
       `⌨️ Prefix: ${bold(global.config.PREFIX)}\n` +
       `📖 Type ${global.config.PREFIX}help to see all commands!\n\n` +
-      `👑 ${bold('Admin:')} Manuelson Yasis\n` +
-      `🔗 fb.com/manuelson.yasis`,
+      `👑 ${bold('Admin:')} Mark Lee\n` +
+      `🔗 fb.com/markleedmeniola`,
       threadID
     );
   }
